@@ -1,2 +1,2 @@
 # Gaslight Style Guide
-The public style guide for Gaslight rebrand
+The public style guide for the Gaslight rebrand
