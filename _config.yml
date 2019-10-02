@@ -1,0 +1,31 @@
+
+
+# Site settings
+title: Gaslight Brand Guide
+description: >
+  All the standard styles and compoenents for the updated Gaslight brand.
+baseurl: ""
+url: "http://teamgaslight.com" # the base hostname & protocol for your site
+
+# Markdown settings
+markdown: kramdown
+
+# Sass settings
+sass:
+  add_charset: true
+  sass_dir: assets/sass
+  style: :compressed
+
+# Build settings
+exclude:
+  - package.json
+  - README.md
+  - CNAME
+  - assets/sass
+
+plugins_dir: ./_scripts
+
+# Plugin settings
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
