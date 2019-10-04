@@ -2,3 +2,22 @@
 $mobile: 48em;
 $tablet: 62em;
 $desktop: 75em;
+
+
+//COLORS
+$black: #252525;
+$white: #FFFFFF;
+$blue: #33BFE5;
+$red: #f03330;
+$yellow: #FFD503;
+
+$color-dark: $black;
+$color-off-dark: lighten($black, 6%);
+$color-gray: lighten($black, 30%);
+$color-gray-light: lighten($black, 60%);
+$color-gray-lighter: lighten($black, 80%);
+$color-light: $white;
+$color-off-light: darken($white, 5%);
+$color-splash-1: $blue;
+$color-splash-2: $red;
+$color-splash-3: $yellow;
